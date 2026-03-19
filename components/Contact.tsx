@@ -31,13 +31,6 @@ export default function Contact() {
                   <span className="text-lg">swapnilchavan211101@gmail.com</span>
                 </a>
                 
-                <a href="tel:+919834453676" className="flex items-center text-gray-300 hover:text-white transition-colors group">
-                  <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mr-6 group-hover:bg-blue-500/20 transition-colors">
-                    <Phone className="w-5 h-5 text-blue-400" />
-                  </div>
-                  <span className="text-lg">+91 98344 53676</span>
-                </a>
-
                 <a href="https://www.linkedin.com/in/swapnil-chavan-30033015a/" target="_blank" rel="noreferrer" className="flex items-center text-gray-300 hover:text-white transition-colors group">
                   <div className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center mr-6 group-hover:bg-blue-500/20 transition-colors">
                     <Linkedin className="w-5 h-5 text-blue-400" />
