@@ -7,7 +7,7 @@ import Overlay from "./Overlay";
 const FRAME_COUNT = 120;
 
 function currentFrame(index: number) {
-  return `/sequence/frame_${index.toString().padStart(3, "0")}_delay-0.066s.png`;
+  return `/sequence/frame_${index.toString().padStart(3, "0")}_delay-0.066s.webp`;
 }
 
 export default function ScrollyCanvas() {
@@ -30,10 +30,14 @@ export default function ScrollyCanvas() {
       img.src = currentFrame(i);
       img.onload = () => {
         loadedCount++;
+        
+        // Draw the first frame immediately
+        if (i === 0) {
+          drawFrame(0, loadedImages);
+        }
+
         if (loadedCount === FRAME_COUNT) {
           setImages(loadedImages);
-          // Draw the first frame initially once all images are loaded
-          drawFrame(0, loadedImages);
         }
       };
       loadedImages.push(img);

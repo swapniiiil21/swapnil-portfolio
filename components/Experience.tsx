@@ -19,7 +19,46 @@ export default function Experience() {
             {/* Vertical Timeline Line */}
             <div className="hidden md:block absolute left-[50%] top-0 bottom-0 w-px bg-white/10 -translate-x-[0.5px]"></div>
             
-            {/* Timeline Item */}
+            {/* Timeline Item - Somvanshi Technologies */}
+            <div className="relative flex flex-col md:flex-row items-center justify-between w-full mb-12">
+              
+              {/* Timeline dot */}
+              <div className="absolute left-[-37px] md:left-[50%] w-4 h-4 bg-blue-500 rounded-full md:-translate-x-1/2 mt-1.5 md:mt-0 shadow-[0_0_15px_rgba(59,130,246,0.5)] z-10" />
+
+              <div className="md:w-[45%] w-full mb-4 md:mb-0 text-left md:text-right pr-0 md:pr-12">
+                <h3 className="text-2xl font-semibold tracking-wide text-white">Data Analyst Intern</h3>
+                <h4 className="text-xl text-blue-400 mt-1">Somvanshi Technologies</h4>
+                <div className="text-gray-400 mt-2 font-mono text-sm tracking-widest uppercase">
+                  Pune, India • Dec 2025 – Apr 2026
+                </div>
+              </div>
+
+              <div className="md:w-[45%] w-full pl-0 md:pl-12">
+                <div className="bg-white/5 border border-white/10 p-6 md:p-8 rounded-2xl backdrop-blur-md hover:bg-white/[0.07] transition-colors">
+                  <ul className="space-y-3 text-gray-300 font-light list-none">
+                    <li className="flex items-start">
+                      <span className="text-blue-500 mr-3 mt-1 text-sm">▹</span>
+                      Analyzed order data and user behavior from the Grubwala platform using Python (Pandas, NumPy) to identify customer preferences and peak demand patterns.
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-500 mr-3 mt-1 text-sm">▹</span>
+                      Performed data cleaning and exploratory data analysis (EDA) on order datasets and chatbot interaction logs to extract meaningful insights.
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-500 mr-3 mt-1 text-sm">▹</span>
+                      Built interactive Power BI dashboards to visualize order trends, user activity, chatbot performance, and support data-driven decision making.
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-500 mr-3 mt-1 text-sm">▹</span>
+                      Worked with MySQL databases, contributed to AI chatbot (GPT-4o mini) query analysis, and supported deployment on Utho Cloud with Cloudflare.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+
+            {/* Timeline Item - Systems Plus Pvt Ltd */}
             <div className="relative flex flex-col md:flex-row items-center justify-between w-full mb-12">
               
               {/* Timeline dot */}
