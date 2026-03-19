@@ -7,7 +7,7 @@ import Overlay from "./Overlay";
 const FRAME_COUNT = 120;
 
 function currentFrame(index: number) {
-  return `/sequence/frame_${index.toString().padStart(3, "0")}_delay-0.066s.webp`;
+  return `/sequence/frame_${index.toString().padStart(3, "0")}_delay-0.066s.jpg`;
 }
 
 export default function ScrollyCanvas() {
