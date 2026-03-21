@@ -23,16 +23,16 @@ export default function About() {
             {/* Bio Text */}
             <div className="space-y-6 text-xl text-gray-300 leading-relaxed font-light">
               <p>
-                <strong className="text-white font-medium">Swapnil N Chavan</strong> is an AI Engineer and Data Scientist 
+                I am <strong className="text-white font-medium">Swapnil Nischal Chavan</strong>, an AI Engineer and Data Scientist 
                 currently pursuing an M.Sc in Data Science at VIT Vellore.
               </p>
               <p>
-                He specializes in machine learning, data analytics, and intelligent system design. 
+                I specialize in machine learning, data analytics, and intelligent system design. 
                 With industry experience supporting large-scale retail systems across 50+ stores in the US and Canada, 
-                he focuses on turning complex operational data into actionable insights.
+                I focus on turning complex operational data into actionable insights.
               </p>
               <p>
-                His expertise spans the entire data pipeline from data extraction and cleaning to predictive modeling 
+                My expertise spans the entire data pipeline from data extraction and cleaning to predictive modeling 
                 and visualization.
               </p>
             </div>
